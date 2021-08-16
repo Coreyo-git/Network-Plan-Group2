@@ -13,3 +13,5 @@
 | 2.2.2.12  | Domain Contorller 2    | 2.2.2.0/24 | Windows Server 2016|
 | 2.2.2.5   | Windows 10 Terminal    | 2.2.2.0/24 | Andrew |
 | 2.2.2.6   | Linux Fedora Terminal    | 2.2.2.0/24 | Corey |
+| 2.2.2.7   | Windows 10 Terminal   | 2.2.2.0/24 | Reece |
+| 2.2.2.8   | Windows 10 Terminal    | 2.2.2.0/24 | Jeremiah |
