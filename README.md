@@ -28,4 +28,5 @@ Repo setup for deocumentation and record of plans and implementation
 | iMac | asdasd    |
 | iMac | asdasd |
 
+# Network Diagram:
 <img src='./Network.png'></img>
