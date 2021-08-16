@@ -1,4 +1,4 @@
-# Network-Plan-Group2
+img# Network-Plan-Group2
 Repo setup for deocumentation and record of plans and implementation
 
 # Network IP Schema
@@ -28,4 +28,4 @@ Repo setup for deocumentation and record of plans and implementation
 | iMac | asdasd    |
 | iMac | asdasd |
 
-[image](Network.png)
+<img src='./Network.png'></img>
