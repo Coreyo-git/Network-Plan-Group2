@@ -19,7 +19,7 @@ Repo setup for deocumentation and record of plans and implementation
 | 2.2.2.7   | Windows 10 Terminal   | 2.2.2.0/24 | Reece |
 | 2.2.2.8   | Windows 10 Terminal    | 2.2.2.0/24 | Jeremiah |
 
-#Hardware Specifications
+# Hardware Specifications
 
 | Device   | Specifications   | Quantity |
 | ---------| ---------------- | -------- |
@@ -27,3 +27,5 @@ Repo setup for deocumentation and record of plans and implementation
 | Dell R720   | Ram:    | 
 | iMac | asdasd    |
 | iMac | asdasd |
+
+[image](Network.png)
