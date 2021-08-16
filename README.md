@@ -13,7 +13,8 @@ Repo setup for deocumentation and record of plans and implementation
 | 192.168.15.2   | Linux Fedora Terminal  | 192.168.15.0/25 | Corey |
 | 192.168.15.3  | Windows 10 Terminal    | 192.168.15.0/25 | Reece |
 | 192.168.15.4  | Windows 10 Terminal    | 192.168.15.0/25 | Jeremiah |
-| 192.168.15.125  | Ubuntu-Server    | 192.168.15.0/25 |  Apache Web Server |
+| 192.168.15.124  | Ubuntu-Server    | 192.168.15.0/25 |  Apache Web Server |
+| 192.168.15.125  | Switch  | 192.168.15.0/25 | Distribution Switch |
 | 192.168.15.126  | Switch  | 192.168.15.0/25 | Main Switch |
 | 192.168.15.127 | Network | 192.168.15.0/25 | Main Router |
 
