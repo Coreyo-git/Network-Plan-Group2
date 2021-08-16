@@ -5,7 +5,7 @@ Repo setup for deocumentation and record of plans and implementation
 
 > Shows the general IP schema of the network.
 
-> **192.168.15.1 => 192.168.15.126**
+> **192.168.15.0 => 192.168.15.127**
 
 | IP Address | Device | Network    | Description |
 | ----------| ------- | ---------- | ----------- |
@@ -28,8 +28,8 @@ Repo setup for deocumentation and record of plans and implementation
 | 192.168.15.228 | ESXi 7.0| 192.168.15.224/27  | Virtual Host 2|
 | 192.168.15.251  | Ubuntu-Server    | 192.168.15.224/27  |  Apache Web Server |
 | 192.168.15.252 | IIS Web Server    | 192.168.15.224/27  | Windows Server 2016|
-| 192.168.15.253 | Switch  | 192.168.15.0/27 | Virtual Switch 1|
-| 192.168.15.254 | Network | 192.168.15.0/27 | Virtual Router 1|
+| 192.168.15.253 | Switch  | 192.168.15.224/27 | Virtual Switch 1|
+| 192.168.15.254 | Network | 192.168.15.224/27 | Virtual Router 1|
 
 # Hardware Specifications
 
