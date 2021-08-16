@@ -1,7 +1,7 @@
-img# Network-Plan-Group2
+# Network-Plan-Group2
 Repo setup for deocumentation and record of plans and implementation
 
-# Network IP Schema
+## Network IP Schema
 
 > Shows the general IP schema of the network.
 
@@ -33,7 +33,7 @@ Repo setup for deocumentation and record of plans and implementation
 | 192.168.15.253 | Switch  | 192.168.15.224/27 | Virtual Switch 1|
 | 192.168.15.254 | Network | 192.168.15.224/27 | Virtual Router 1|
 
-# Hardware Specifications
+## Hardware Specifications
 
 | Device   | Specifications   | Role | Quantity |
 | ---------| ---------------- | -------- | -----|
@@ -43,5 +43,5 @@ Repo setup for deocumentation and record of plans and implementation
 | iMac | N/A | Terminal | 4x |
 | Router | N/A | Router | 1x |
 | Cisco Switch 2801 | N/A | Switch | 1x |
-# Network Diagram:
+## Network Diagram:
 <img src='./Network.png'></img>
