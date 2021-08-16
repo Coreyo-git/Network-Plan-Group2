@@ -5,19 +5,31 @@ Repo setup for deocumentation and record of plans and implementation
 
 > Shows the general IP schema of the network.
 
+> **192.168.15.1 => 192.168.15.126**
+
 | IP Address | Device | Network    | Description |
 | ----------| ------- | ---------- | ----------- |
-| 2.2.2.254 | Network | 2.2.2.0/24 | Main Router |
-| 2.2.2.49  | Switch  | 2.2.2.0/24 | Main Switch |
-| 2.2.2.1   | ESXi 6.0| 2.2.2.0/24 | Virtual Host 1|
-| 2.2.2.2   | ESXi 7.0| 2.2.2.0/24 | Virtual Host 2|
-| 2.2.2.48  | ESXi    | Ubuntu-Server  | 2.2.2.0/24 | Apache Web Server |
-| 2.2.2.11  | Domain Controller 1    | 2.2.2.0/24 | Windows Server 2016|
-| 2.2.2.12  | Domain Contorller 2    | 2.2.2.0/24 | Windows Server 2016|
-| 2.2.2.5   | Windows 10 Terminal    | 2.2.2.0/24 | Andrew |
-| 2.2.2.6   | Linux Fedora Terminal  | 2.2.2.0/24 | Corey |
-| 2.2.2.7   | Windows 10 Terminal    | 2.2.2.0/24 | Reece |
-| 2.2.2.8   | Windows 10 Terminal    | 2.2.2.0/24 | Jeremiah |
+| 192.168.15.1   | Windows 10 Terminal    | 192.168.15.0/25 | Andrew |
+| 192.168.15.2   | Linux Fedora Terminal  | 192.168.15.0/25 | Corey |
+| 192.168.15.3  | Windows 10 Terminal    | 192.168.15.0/25 | Reece |
+| 192.168.15.4  | Windows 10 Terminal    | 192.168.15.0/25 | Jeremiah |
+| 192.168.15.126  | Switch  | 192.168.15.0/25 | Main Switch |
+| 192.168.15.127 | Network | 192.168.15.0/25 | Main Router |
+
+
+## Subnet Range:
+> **192.168.15.224 => 192.168.15.255**
+
+| IP Address | Device | Network    | Description |
+| ----------| ------- | ---------- | ----------- |
+| 192.168.15.225 | Domain Controller 1    | 192.168.15.224/27  | Windows Server 2016|
+| 192.168.15.226 | Domain Contorller 2    | 192.168.15.224/27  | Windows Server 2016|
+| 192.168.15.227 | ESXi 6.0| 192.168.15.224/27 | Virtual Host 1|
+| 192.168.15.228 | ESXi 7.0| 192.168.15.224/27  | Virtual Host 2|
+| 192.168.15.251  | Ubuntu-Server    | 192.168.15.224/27  |  Apache Web Server |
+| 192.168.15.252 | IIS Web Server    | 192.168.15.224/27  | Windows Server 2016|
+| 192.168.15.253 | Switch  | 192.168.15.0/27 | Virtual Switch 1|
+| 192.168.15.254 | Network | 192.168.15.0/27 | Virtual Router 1|
 
 # Hardware Specifications
 
