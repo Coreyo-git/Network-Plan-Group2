@@ -5,7 +5,7 @@ Repo setup for deocumentation and record of plans and implementation
 
 > Shows the general IP schema of the network.
 
-> **192.168.15.0 => 192.168.15.127** Gateway == 192.168.15.126 NetMask == 255.255.255.128 /25
+> **192.168.15.0 => 192.168.15.127 Gateway == 192.168.15.126 NetMask == 255.255.255.128 /25**
 
 | IP Address | Device | Network    | Description |
 | ----------| ------- | ---------- | ----------- |
@@ -23,7 +23,7 @@ Repo setup for deocumentation and record of plans and implementation
 
 
 ## Subnet Range:
-> **192.168.15.224 => 192.168.15.255** Gateway == 192.168.15.254 Netmask == 255.255.255.224 /27
+> **192.168.15.224 => 192.168.15.255 Gateway == 192.168.15.254 Netmask == 255.255.255.224 /27**
 
 | IP Address | Device | Network    | Description |
 | ----------| ------- | ---------- | ----------- |
