@@ -25,5 +25,5 @@
 
 | Port | IP Address | Device | Description | 
 | ---- | ---------- | ------ | ---------------------------- |
-| 80   | 192.168.15.122 | Ubuntu Web Server | External Web Server HTTP |
-| 443   | 192.168.15.122 | Ubuntu Web Server | External Web Server HTTPS |
+| 80   | 192.168.15.252 | IIS WebServer | Intranet Web Server HTTP |
+| 443   | 192.168.15.252 | IIS WebServer | Intranet Web Server HTTPS |
