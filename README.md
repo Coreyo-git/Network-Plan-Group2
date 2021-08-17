@@ -6,8 +6,9 @@ Repo setup for deocumentation and record of plans and implementation
 > **The Schema includes two networks, one being a subnet.**
 > **The main network is 192.168.15.0/25 and the subnet is 192.168.15.224/27**
 
-> Shows the general IP schema of the network.
+#### Domain = group2.network
 
+> **Shows the general IP schema of the network.**
 > **192.168.15.0 => 192.168.15.127 | Gateway == 192.168.15.126 | NetMask == 255.255.255.128 /25**
 
 | IP Address | Device | Network    | Description |
