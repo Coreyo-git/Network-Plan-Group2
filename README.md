@@ -3,7 +3,7 @@ Repo setup for deocumentation and record of plans and implementation
 
 ## Network IP Schema
 
-> Shows the general IP schema of the network.
+>#### Shows the general IP schema of the network.
 
 > **192.168.15.0 => 192.168.15.127 Gateway == 192.168.15.126 NetMask == 255.255.255.128 /25**
 
