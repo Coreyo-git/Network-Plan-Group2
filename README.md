@@ -5,7 +5,7 @@ Repo setup for deocumentation and record of plans and implementation
 
 > Shows the general IP schema of the network.
 
-> **192.168.15.0 => 192.168.15.127**
+> **192.168.15.0 => 192.168.15.127** Gateway == 192.168.15.126 NetMask == 255.255.255.128 /25
 
 | IP Address | Device | Network    | Description |
 | ----------| ------- | ---------- | ----------- |
@@ -15,15 +15,15 @@ Repo setup for deocumentation and record of plans and implementation
 | 192.168.15.4    | Linux Fedora Terminal  | 192.168.15.0/25 | Corey |
 | 192.168.15.5    | Windows 10 Terminal    | 192.168.15.0/25 | Reece |
 | 192.168.15.6    | Windows 10 Terminal    | 192.168.15.0/25 | Jeremiah |
-| 192.168.15.123  | Router  | 192.168.15.0/25 | Router for 224 Subnet |
-| 192.168.15.124  | Ubuntu-Server    | 192.168.15.0/25 |  Apache Web Server |
-| 192.168.15.125  | Switch  | 192.168.15.0/25 | Distribution Switch |
-| 192.168.15.126  | Switch  | 192.168.15.0/25 | Main Switch |
-| 192.168.15.127  | Network | 192.168.15.0/25 | Main Router |
+| 192.168.15.122  | Router  | 192.168.15.0/25 | Router for 224 Subnet |
+| 192.168.15.123  | Ubuntu-Server    | 192.168.15.0/25 |  Apache Web Server |
+| 192.168.15.124  | Switch  | 192.168.15.0/25 | Distribution Switch |
+| 192.168.15.125  | Switch  | 192.168.15.0/25 | Main Switch |
+| 192.168.15.126  | Network | 192.168.15.0/25 | Main Router |
 
 
 ## Subnet Range:
-> **192.168.15.224 => 192.168.15.255**
+> **192.168.15.224 => 192.168.15.255** Gateway == 192.168.15.254 Netmask == 255.255.255.224 /27
 
 | IP Address | Device | Network    | Description |
 | ----------| ------- | ---------- | ----------- |
