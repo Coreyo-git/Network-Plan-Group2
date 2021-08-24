@@ -59,4 +59,5 @@ Repo setup for deocumentation and record of plans and implementation
 
 
 ## Network Diagram:
-![Group 2 Network Plan - Diagram](https://user-images.githubusercontent.com/89438022/130698802-31b046d6-fec7-4651-993a-1bab0a84c6b8.png)
+![Complex diagram - bottom window re-edit](https://user-images.githubusercontent.com/89438022/130699074-09577e77-6bb0-4430-b4ee-5a29bb9b114d.jpg)
+
