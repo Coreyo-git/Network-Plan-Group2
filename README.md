@@ -34,8 +34,8 @@ Repo setup for deocumentation and record of plans and implementation
 | -------------- | ---------------------- | ------------------ | ------------------- |
 | 192.168.15.225 | Domain Controller 1    | 192.168.15.224/27  | Windows Server 2016 |
 | 192.168.15.226 | Domain Contorller 2    | 192.168.15.224/27  | Windows Server 2016 |
-| 192.168.15.227 | Windows Server         | 192.168.15.224/27  | File Server         |
 | 192.168.15.228 | Ubuntu Desktop         | 192.168.15.224/27  | Terminal            |
+| 192.168.15.229 | Windows Server         | 192.168.15.224/27  | File Server         |
 | 192.168.15.252 | IIS Web Server         | 192.168.15.224/27  | Windows Server 2016 |
 | 192.168.15.253 | Switch                 | 192.168.15.224/27  | Virtual Switch 1    |
 | 192.168.15.254 | Network                | 192.168.15.224/27  | Virtual Router 1    |
