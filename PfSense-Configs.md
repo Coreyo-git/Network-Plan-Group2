@@ -2,6 +2,13 @@
 
 > Below will document all the changes and setup for PfSense
 
+## Tips:
+
+- Rules to match port forwards, forwards to show pass instead of link
+- Don't forward HTTP or port 80 until the default pfsense web app is listening on a different port
+- NAT reflection should be set to **Nat + Proxy**
+
+
 ## Network, IP Address and Gateway
 **Router one, main router:**
 | Network | IP Address | Range  | Gateway | CIDR |
