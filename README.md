@@ -1,22 +1,26 @@
-# Network-Plan-Group2
-Repo setup for deocumentation and record of plans and implementation
+# Network Plan for Group 2
 
+A repository setup to document and record the plans ,implementation and development of a complex Network.
+This Schema includes two networks, a public network and a private subnet.
+The Domain of the network is: **group2.network**
 
-##Table of Contents
+## Table of Contents
 
-- [Network-Plan-Group2](#network-plan-group2)
+- [Network Plan for Group 2](#network-plan-for-group-2)
+  - [Table of Contents](#table-of-contents)
   - [Public Network IP Schema](#public-network-ip-schema)
-  - [Subnet IP Schema:](#subnet-ip-schema)
+  - [Subnet IP Schema](#subnet-ip-schema)
   - [Hardware Specifications](#hardware-specifications)
-  - [Services:](#services)
-  - [Network Diagram:](#network-diagram)
+  - [Services](#services)
+  - [Network Diagram](#network-diagram)
+
+---
 
 ## Public Network IP Schema
-The Domain of the network is: **group2.network**
-> **The Schema includes two networks, one being a subnet.**
-> **The main network is 192.168.15.0/25 and the subnet is 192.168.15.224/27**
-> **Shows the general IP schema of the network.**
-> **192.168.15.0 => 192.168.15.127 | Gateway == 192.168.15.126 | NetMask == 255.255.255.128 /25**
+
+| Main Network Range | Gateway | NetMask | CIDR |
+| ------------------------------- | -------------- | --------------- | --- |
+| 192.168.15.0 <=> 192.168.15.127 | 192.168.15.126 | 255.255.255.128 | /25 |
 
 | IP Address | Device | Network    | Description |
 | ----------| ------- | ---------- | ----------- |
@@ -33,15 +37,18 @@ The Domain of the network is: **group2.network**
 | 192.168.15.125  | Switch  | 192.168.15.0/25 | Main Switch |
 | 192.168.15.126  | Network | 192.168.15.0/25 | Main Router |
 
+---
 
-## Subnet IP Schema:
+## Subnet IP Schema
 
-> **192.168.15.224 => 192.168.15.255 | Gateway == 192.168.15.254 | Netmask == 255.255.255.224 /27**
+| Main Network Range | Gateway | NetMask | CIDR |
+| --------------------------------- | -------------- | --------------- | --- |
+| 192.168.15.224 <=> 192.168.15.255 | 192.168.15.254 | 255.255.255.224 | /27 |
 
 | IP Address     | Device                 | Network            | Description         |
 | -------------- | ---------------------- | ------------------ | ------------------- |
 | 192.168.15.225 | Domain Controller 1    | 192.168.15.224/27  | Windows Server 2016 |
-| 192.168.15.226 | Domain Contorller 2    | 192.168.15.224/27  | Windows Server 2016 |
+| 192.168.15.226 | Domain Controller 2    | 192.168.15.224/27  | Windows Server 2016 |
 | 192.168.15.228 | Ubuntu Desktop         | 192.168.15.224/27  | Terminal            |
 | 192.168.15.229 | Windows Server         | 192.168.15.224/27  | File Server         |
 | 192.168.15.252 | IIS Web Server         | 192.168.15.224/27  | Windows Server 2016 |
@@ -59,13 +66,17 @@ The Domain of the network is: **group2.network**
 | Router | N/A | Router | 1x |
 | Cisco Switch 2801 | N/A | Switch | 1x |
 
-## Services:
+---
+
+## Services
+
 | Service  | Port | Ip Address | Description |
 | -------- | ---- | ---------- | ----------- |
 | MariaDB  | 3306 | 192.168.15.124 | DB for Password Manager |
 | Passbolt | 81   | 192.168.15.124 | Password Manager HTTP/s UI NGINX |
 
+---
 
-## Network Diagram:
+## Network Diagram
+
 ![Complex diagram - bottom window re-edit](https://user-images.githubusercontent.com/89438022/130699074-09577e77-6bb0-4430-b4ee-5a29bb9b114d.jpg)
-
