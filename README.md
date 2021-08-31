@@ -1,13 +1,20 @@
 # Network-Plan-Group2
 Repo setup for deocumentation and record of plans and implementation
 
-## Network IP Schema
 
+##Table of Contents
+
+- [Network-Plan-Group2](#network-plan-group2)
+  - [Public Network IP Schema](#public-network-ip-schema)
+  - [Subnet IP Schema:](#subnet-ip-schema)
+  - [Hardware Specifications](#hardware-specifications)
+  - [Services:](#services)
+  - [Network Diagram:](#network-diagram)
+
+## Public Network IP Schema
+The Domain of the network is: **group2.network**
 > **The Schema includes two networks, one being a subnet.**
 > **The main network is 192.168.15.0/25 and the subnet is 192.168.15.224/27**
-
-#### Domain = group2.network
-
 > **Shows the general IP schema of the network.**
 > **192.168.15.0 => 192.168.15.127 | Gateway == 192.168.15.126 | NetMask == 255.255.255.128 /25**
 
@@ -27,7 +34,8 @@ Repo setup for deocumentation and record of plans and implementation
 | 192.168.15.126  | Network | 192.168.15.0/25 | Main Router |
 
 
-## Subnet Range:
+## Subnet IP Schema:
+
 > **192.168.15.224 => 192.168.15.255 | Gateway == 192.168.15.254 | Netmask == 255.255.255.224 /27**
 
 | IP Address     | Device                 | Network            | Description         |
