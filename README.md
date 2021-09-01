@@ -4,15 +4,101 @@ A repository setup to document and record the plans ,implementation and developm
 This Schema includes two networks, a public network and a private subnet.
 The Domain of the network is: **group2.network**
 
-## Table of Contents
+##Table of Contents
 
 - [Network Plan for Group 2](#network-plan-for-group-2)
-  - [Table of Contents](#table-of-contents)
+  - [Status and Updates](#status-and-updates)
+  - [Tasks and Objectives](#tasks-and-objectives)
   - [Public Network IP Schema](#public-network-ip-schema)
   - [Subnet IP Schema](#subnet-ip-schema)
   - [Hardware Specifications](#hardware-specifications)
   - [Services](#services)
   - [Network Diagram](#network-diagram)
+
+---
+
+## Status and Updates
+
+Within this section, the status of the network and updates will be tracked weekly.
+| Date           | Update | Description |
+| -------------- | ------ | ----------- |
+| 2021 / 09 / 2021 | Added this table | :) :O :D :'( |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+---
+
+## Tasks and Objectives
+
+This section covers tasks and objectives yet to be achieved towards the completion of the network plan
+
+| #          | Task |
+| ---------- | ------ |
+|  | **Stage Two** |
+| 1 | Plan Network Requirements |
+| 2 | Design Network Diagram |
+| 3 | Investigate Solutions For Proposed Solutions For Proposed Network |
+| 4 | Install and Configure Base Network |
+| 5 |  |
+| 6 |  |
+| 7 |  |
+| 8 |  |
+| 9 |  |
+
+NESTED VIRTUALISATION and/or ALTERNATIVE and/or Clustered Servers
+.INVESTIGATE options from these?
+-Nested virtualis[z]ation
+-Cluster servers (eg. VMware VCenter) 
+-Alternatives (eg. move around physical/virtual assests ie servers to allow building additional functionality/server into your network)
+.planning
+.installing & configuring
+.PURPOSE...
+(1) host an INTERNAL (ie. within your group) website aka INTRANET; and
+(2) secure file server
+THINK....will CLUSTERING HELP???
+
+INTERNET WEBSERVER - VIRTUALISED
+.take your physical webserver and virtualise
+
+IP SUBNETTING 
+.develop and implement
+.subnetting VS two separate networks (ie. main NW and INTERNAL NW)?
+
+VLAN
+.Investigate VLAN
+.feasibility 
+.plan for implementation
+
+NETWORK INVENTORY
+.Spiceworks etc
+
+EMAIL SERVER
+.plan & implement
+
+NETWORK/SYSTEM SECURITY
+.utilise a SECURITY AUDIT document (checklist/plan) developed in Security Cluster to CONDUCT a FULL AUDIT of your groups network
+.RECORD findings
+.PRESENT to CLASS
+.develop security implementation plan
+.SECURITY HARDENING...implement your SECURITY MEASURES
+.Close your group network so other groups DO NOT HAVE ACCESS
+.Post a SECURITY NETWORK DIAGRAM (LOGICAL)
+
+REMOTE ACCESS
+.manage & use remote access from home
+
+PROBLEM/DIAGNOSIS/TROUBLESHOOTING
+.capture ALL TROUBLESHOOTING for the PROBLEMS your groups has had
+
+EQUIPMENT ADDITIONS/CHANGES
+.you will have ONE server freed up from INTERNET WEBSERVER being virtualised
+.you may access and ADDITIONAL server
 
 ---
 
