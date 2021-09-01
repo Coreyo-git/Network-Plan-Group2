@@ -20,17 +20,9 @@ The Domain of the network is: **group2.network**
 ## Status and Updates
 
 Within this section, the status of the network and updates will be tracked weekly.
-| Date           | Update | Description |
-| -------------- | ------ | ----------- |
-| 2021 / 09 / 2021 | Added this table | :) :O :D :'( |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+
+Date: **01 / 09 / 2021**
+> Created this table
 
 ---
 
