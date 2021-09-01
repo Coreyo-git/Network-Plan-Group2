@@ -7,7 +7,6 @@ The Domain of the network is: **group2.network**
 ## Table of Contents
 
 - [Network Plan for Group 2](#network-plan-for-group-2)
-  - [Table of Contents](#table-of-contents)
   - [Status and Updates](#status-and-updates)
   - [Tasks and Objectives](#tasks-and-objectives)
   - [Public Network IP Schema](#public-network-ip-schema)
