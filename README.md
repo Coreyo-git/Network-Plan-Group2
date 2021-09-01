@@ -51,12 +51,12 @@ This section covers tasks and objectives yet to be achieved towards the completi
 | 8 | ~~Setup Router for main network~~ |
 | 9 | ~~Configure Remote access into network~~ |
 | **S2** | **Stage Two** |
-| 1 | Re-design network diagram |
-| 2 | Investigate VLAN and IP Subnetting |
-| 3 | Implement a private network within the main network |
-| 4 | Host a virtual IIS webserver in the private network |
-| 5 | Host a secure Windows File Server in the private network |
-| 6 | Consider Clustering? |
+| 1 | ~~Re-design network diagram~~ |
+| 2 | ~~Investigate VLAN and IP Subnetting~~ |
+| 3 | ~~Implement a private network within the main network~~ |
+| 4 | ~~Host a virtual IIS webserver in the private network~~ |
+| 5 | ~~Host a secure Windows File Server in the private network~~ |
+| 6 | ~~Consider Clustering?~~ |
 | 7 | Setup network inventory solution |
 | 8 | Plan and implement Email Server |
 | 9 | Develop security implementation plan |
