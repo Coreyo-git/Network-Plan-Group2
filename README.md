@@ -40,11 +40,21 @@ This section covers tasks and objectives yet to be achieved towards the completi
 
 | #          | Task |
 | ---------- | ------ |
-|  | **Stage Two** |
-| 1 | Plan Network Requirements |
-| 2 | Design Network Diagram |
-| 3 | Investigate Solutions For Proposed Solutions For Proposed Network |
-| 4 | Install and Configure Base Network |
+| **S** | **Stage One** |
+| 1 | Plan network requirements, hardware, software |
+| 2 | Investigate solutions for proposed network |
+| 3 | Design network diagram, including IP address schema |
+| 4 | Setup, install and configure ESXi server x 2 |
+| 5 | Setup and test connectivity within the network |
+| 6 | Setup two Domain Controller VM's DC, DNS |
+| 7 | Setup, install and configure Linux Webserver |
+| 8 | Setup Router for main network |
+| 9 | Configure Remote access into network |
+| **S2** | **Stage Two** |
+| 1 | Re-design network diagram |
+| 2 | Investigate VLAN and IP Subnetting |
+| 3 | Implement a private network within the main network |
+| 4 |  |
 | 5 |  |
 | 6 |  |
 | 7 |  |
