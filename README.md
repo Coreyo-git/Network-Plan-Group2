@@ -41,74 +41,28 @@ This section covers tasks and objectives yet to be achieved towards the completi
 | #          | Task |
 | ---------- | ------ |
 | **S** | **Stage One** |
-| 1 | Plan network requirements, hardware, software |
-| 2 | Investigate solutions for proposed network |
-| 3 | Design network diagram, including IP address schema |
-| 4 | Setup, install and configure ESXi server x 2 |
-| 5 | Setup and test connectivity within the network |
-| 6 | Setup two Domain Controller VM's DC, DNS |
-| 7 | Setup, install and configure Linux Webserver |
-| 8 | Setup Router for main network |
-| 9 | Configure Remote access into network |
+| 1 | ~~Plan network requirements, hardware, software~~ |
+| 2 | ~~Investigate solutions for proposed network~~ |
+| 3 | ~~Design network diagram, including IP address schema~~ |
+| 4 | ~~Setup, install and configure ESXi server x 2~~ |
+| 5 | ~~Setup and test connectivity within the network~~ |
+| 6 | ~~Setup two Domain Controller VM's DC, DNS~~ |
+| 7 | ~~Setup, install and configure Linux Webserver~~ |
+| 8 | ~~Setup Router for main network~~ |
+| 9 | ~~Configure Remote access into network~~ |
 | **S2** | **Stage Two** |
 | 1 | Re-design network diagram |
 | 2 | Investigate VLAN and IP Subnetting |
 | 3 | Implement a private network within the main network |
-| 4 |  |
-| 5 |  |
-| 6 |  |
-| 7 |  |
-| 8 |  |
-| 9 |  |
-
-NESTED VIRTUALISATION and/or ALTERNATIVE and/or Clustered Servers
-.INVESTIGATE options from these?
--Nested virtualis[z]ation
--Cluster servers (eg. VMware VCenter) 
--Alternatives (eg. move around physical/virtual assests ie servers to allow building additional functionality/server into your network)
-.planning
-.installing & configuring
-.PURPOSE...
-(1) host an INTERNAL (ie. within your group) website aka INTRANET; and
-(2) secure file server
-THINK....will CLUSTERING HELP???
-
-INTERNET WEBSERVER - VIRTUALISED
-.take your physical webserver and virtualise
-
-IP SUBNETTING 
-.develop and implement
-.subnetting VS two separate networks (ie. main NW and INTERNAL NW)?
-
-VLAN
-.Investigate VLAN
-.feasibility 
-.plan for implementation
-
-NETWORK INVENTORY
-.Spiceworks etc
-
-EMAIL SERVER
-.plan & implement
-
-NETWORK/SYSTEM SECURITY
-.utilise a SECURITY AUDIT document (checklist/plan) developed in Security Cluster to CONDUCT a FULL AUDIT of your groups network
-.RECORD findings
-.PRESENT to CLASS
-.develop security implementation plan
-.SECURITY HARDENING...implement your SECURITY MEASURES
-.Close your group network so other groups DO NOT HAVE ACCESS
-.Post a SECURITY NETWORK DIAGRAM (LOGICAL)
-
-REMOTE ACCESS
-.manage & use remote access from home
-
-PROBLEM/DIAGNOSIS/TROUBLESHOOTING
-.capture ALL TROUBLESHOOTING for the PROBLEMS your groups has had
-
-EQUIPMENT ADDITIONS/CHANGES
-.you will have ONE server freed up from INTERNET WEBSERVER being virtualised
-.you may access and ADDITIONAL server
+| 4 | Host a virtual IIS webserver in the private network |
+| 5 | Host a secure Windows File Server in the private network |
+| 6 | Consider Clustering? |
+| 7 | Setup network inventory solution |
+| 8 | Plan and implement Email Server |
+| 9 | Develop security implementation plan |
+| 10 | Harden network security |
+| 11 | Perform security audit on network |
+| 12 | Create a security network diagram |
 
 ---
 
