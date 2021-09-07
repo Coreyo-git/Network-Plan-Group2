@@ -114,8 +114,8 @@ This section covers tasks and objectives yet to be achieved towards the completi
 
 | Service  | Port | Ip Address | Description |
 | -------- | ---- | ---------- | ----------- |
-| MariaDB  | 3306 | 192.168.15.124 | DB for Password Manager |
-| Passbolt | 81   | 192.168.15.124 | Password Manager HTTP/s UI NGINX |
+| MariaDB  | 3306 | 192.168.15.123 | DB for Password Manager |
+| Passbolt | 81   | 192.168.15.123 | Password Manager HTTP/s UI NGINX |
 
 ---
 
