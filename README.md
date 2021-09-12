@@ -121,5 +121,6 @@ This section covers tasks and objectives yet to be achieved towards the completi
 
 ## Network Diagram
 
-![Network Plan 2, updated with Security colours readjust](https://user-images.githubusercontent.com/89438022/132973688-4a3d2038-aea9-4e00-a3e0-9b93e542e906.jpg)
+![Group 2 Netowkr Plan, security colour update borderless](https://user-images.githubusercontent.com/89438022/132973786-2a39ec29-1afc-42c8-b90f-ba9506c0f261.png)
+
 
