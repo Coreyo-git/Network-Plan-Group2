@@ -121,4 +121,5 @@ This section covers tasks and objectives yet to be achieved towards the completi
 
 ## Network Diagram
 
-![Complex diagram - bottom window re-edit](https://user-images.githubusercontent.com/89438022/130699074-09577e77-6bb0-4430-b4ee-5a29bb9b114d.jpg)
+![Network Plan 2, updated with Security colours readjust](https://user-images.githubusercontent.com/89438022/132973688-4a3d2038-aea9-4e00-a3e0-9b93e542e906.jpg)
+
