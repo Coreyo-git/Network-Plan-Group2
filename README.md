@@ -145,12 +145,12 @@ This section covers tasks and objectives yet to be achieved towards the completi
 
 ### Network, IP Address and Gateway
 
-**Router one, main router:**
+**Router one, main router, Public:**
 | Network | IP Address | Range  | Gateway | CIDR |
 | ------- | ---------- | ------- | ----- | ---- |
 | 192.168.15.0 | 192.168.15.126 | .0 - .127 | 172.20.28.x | /25 |
 
-**Router Two, Subnet-One Router:**
+**Router Two, Subnet-One Router, Private:**
 | Network | IP Address | Range | Gateway | CIDR |
 | ------- | ---------- | ----- | ------- | ---- |
 | 192.168.15.128 | 192.168.15.254 | .128 - .254| 192.168.15.122 | /27 |
@@ -159,16 +159,17 @@ This section covers tasks and objectives yet to be achieved towards the completi
 
 ### Port Forwarding Rules
 
-> **Main Router**
+> **Main Router, Public**
 
-| Port | IP Address | Device | Description |
-| ---- | ---------- | ------ | ---------------------------- |
+| Port | IP Address | Device | Protocol | Description |
+| ---- | ---------- | ------ | -------- | ----------- |
 | 80   | 192.168.15.122 | Ubuntu Web Server | External Web Server HTTP |
 | 443   | 192.168.15.122 | Ubuntu Web Server | External Web Server HTTPS |
 
-> **Subnet-One Router**
+> **Subnet-One Router, Private**
 
-| Port | IP Address | Device | Description |
-| ---- | ---------- | ------ | ---------------------------- |
+| Port | IP Address | Device | Protocol | Description |
+| ---- | ---------- | ------ | -------- | ----------- |
 | 80   | 192.168.15.252 | IIS WebServer | Intranet Web Server HTTP |
 | 443   | 192.168.15.252 | IIS WebServer | Intranet Web Server HTTPS |
+|
