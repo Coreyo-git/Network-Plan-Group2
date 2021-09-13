@@ -4,6 +4,8 @@ A repository setup to document and record the plans ,implementation and developm
 This Schema includes two networks, a public network and a private subnet.
 The Domain of the network is: **group2.network**
 
+![](https://media.giphy.com/media/n6mEMqAuYOQ8l8qcEE/giphy.gif?cid=790b761193f21ff8db6c0d4c2aafad33dd29979fba85996e&rid=giphy.gif&ct=g)
+
 ## Table of Contents
 
 - [Network Plan for Group 2](#network-plan-for-group-2)
