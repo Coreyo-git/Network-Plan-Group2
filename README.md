@@ -77,6 +77,7 @@ This section covers tasks and objectives yet to be achieved towards the completi
 | 192.168.15.4    | Linux Fedora Terminal  | 192.168.15.0/25 | Corey |
 | 192.168.15.5    | Windows 10 Terminal    | 192.168.15.0/25 | Reece |
 | 192.168.15.6    | Windows 10 Terminal    | 192.168.15.0/25 | Jeremiah |
+| 192.168.15.120 | Wireless Router | 192.168.15.0/25 | Wi-Fi |
 | 192.168.15.121  | Windows Server Email Server | 192.168.15.0/25 | HMail internal |
 | 192.168.15.122  | Router  | 192.168.15.0/25 | Router for 224 Subnet |
 | 192.168.15.123  | Ubuntu-Server    | 192.168.15.0/25 |  Apache Web Server |
