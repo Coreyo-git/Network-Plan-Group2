@@ -7,6 +7,7 @@ The Domain of the network is: **group2.network**
 ## Table of Contents
 
 - [Network Plan for Group 2](#network-plan-for-group-2)
+  - [Table of Contents](#table-of-contents)
   - [Status and Updates](#status-and-updates)
   - [Tasks and Objectives](#tasks-and-objectives)
   - [Public Network IP Schema](#public-network-ip-schema)
@@ -121,6 +122,4 @@ This section covers tasks and objectives yet to be achieved towards the completi
 
 ## Network Diagram
 
-![Group 2 Netowkr Plan, security colour update borderless](https://user-images.githubusercontent.com/89438022/132973786-2a39ec29-1afc-42c8-b90f-ba9506c0f261.png)
-
-
+![Group 2 Network Plan, security colour update border-less](https://user-images.githubusercontent.com/89438022/132973786-2a39ec29-1afc-42c8-b90f-ba9506c0f261.png)
