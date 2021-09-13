@@ -161,15 +161,26 @@ This section covers tasks and objectives yet to be achieved towards the completi
 
 > **Main Router, Public**
 
-| Port | IP Address | Device | Protocol | Description |
-| ---- | ---------- | ------ | -------- | ----------- |
-| 80   | 192.168.15.122 | Ubuntu Web Server | External Web Server HTTP |
-| 443   | 192.168.15.122 | Ubuntu Web Server | External Web Server HTTPS |
+| Port | Service | IP Address | Device | Protocol | Description | Source/Destination |
+| ---- | ------- | ---------- | ------ | -------- | ----------- | ------------------ |
+| 80   | HTTP  | 192.168.15.122 | Ubuntu Web Server | TCP/UDP | Public Web Server | WAN to LAN |
+| 443  | HTTPS | 192.168.15.122 | Ubuntu Web Server | TCP/UDP | Public Web Server | WAN to LAN |
 
 > **Subnet-One Router, Private**
 
-| Port | IP Address | Device | Protocol | Description |
-| ---- | ---------- | ------ | -------- | ----------- |
-| 80   | 192.168.15.252 | IIS WebServer | Intranet Web Server HTTP |
-| 443   | 192.168.15.252 | IIS WebServer | Intranet Web Server HTTPS |
-|
+| Port | Service | IP Address | Device | Protocol | Description | Source/Destination |
+| ---- | ------- | ---------- | ------ | -------- | ----------- | ------------------ |
+| 80   | HTTP  | 192.168.15.252 | IIS WebServer | TCP/UDP | Intranet Web Server HTTP | WAN to LAN |
+| 443  | HTTPS | 192.168.15.252 | IIS WebServer | TCP/UDP | Intranet Web Server HTTPS | WAN to LAN |
+| 123  | W32Time   | 192.168.15.225-226 | Domain Controller One-Two | UDP | W32 Time | WAN to LAN |
+| 135  | DCE   | 192.168.15.225-226 | Domain Controller One-Two | TCP/UDP | DC Operations | WAN to LAN |
+| 389  | LDAP  | 192.168.15.225-226 | Domain Controller One-Two | UDP | Lightw Directory Service | WAN to LAN |
+| 464  | Kerb   | 192.168.15.225-226 | Domain Controller One-Two | TCP/UDP | Kerberos | WAN to LAN |
+| 53   | DNS   | 192.168.15.225-226 | Domain Controller One-Two | TCP/UDP |DNS | WAN to LAN |
+| 88  | Kerb Auth | 192.168.15.225-226 | Domain Controller One-Two | UDP | Kerberos Authe | WAN to LAN |
+| 138  | FRS   | 192.168.15.225-226 | Domain Controller One-Two | TCP | File Replication | WAN to LAN |
+| 139  | FRS   | 192.168.15.225-226 | Domain Controller One-Two | TCP | Replication | WAN to LAN |
+| 445  | SMB   | 192.168.15.225-226 | Domain Controller One-Two | TCP | Server msg blk | WAN to LAN |
+| 636  | LDAP SSL   | 192.168.15.225-226 | Domain Controller One-Two | TCP | SSL layer LDAP| WAN to LAN |
+| 1024  | FRS RPC   | 192.168.15.225-226 | Domain Controller One-Two | TCP/UDP | FRS RPC | WAN to LAN |
+| 3296  | LDAP GC   | 192.168.15.225-226 | Domain Controller One-Two | TCP/UDP | LDAP GC | WAN to LAN |
