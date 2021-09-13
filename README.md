@@ -15,6 +15,10 @@ The Domain of the network is: **group2.network**
   - [Hardware Specifications](#hardware-specifications)
   - [Services](#services)
   - [Network Diagram](#network-diagram)
+  - [PfSense Configurations](#pfsense-configurations)
+    - [Tips](#tips)
+    - [Network, IP Address and Gateway](#network-ip-address-and-gateway)
+    - [Port Forwarding Rules](#port-forwarding-rules)
 
 ---
 
@@ -123,3 +127,47 @@ This section covers tasks and objectives yet to be achieved towards the completi
 ## Network Diagram
 
 ![Group 2 Network Plan, security colour update border-less](https://user-images.githubusercontent.com/89438022/132973786-2a39ec29-1afc-42c8-b90f-ba9506c0f261.png)
+
+## PfSense Configurations
+
+> Below will document all the changes and setup for PfSense
+
+---
+
+### Tips
+
+- Rules to match port forwards, forwards to show pass instead of link
+- Don't forward HTTP or port 80 until the default PfSense web app is listening on a different port
+- NAT reflection should be set to **Nat + Proxy**
+
+---
+
+### Network, IP Address and Gateway
+
+**Router one, main router:**
+| Network | IP Address | Range  | Gateway | CIDR |
+| ------- | ---------- | ------- | ----- | ---- |
+| 192.168.15.0 | 192.168.15.126 | .0 - .127 | 172.20.28.x | /25 |
+
+**Router Two, Subnet-One Router:**
+| Network | IP Address | Range | Gateway | CIDR |
+| ------- | ---------- | ----- | ------- | ---- |
+| 192.168.15.128 | 192.168.15.254 | .128 - .254| 192.168.15.122 | /27 |
+
+---
+
+### Port Forwarding Rules
+
+> **Main Router**
+
+| Port | IP Address | Device | Description |
+| ---- | ---------- | ------ | ---------------------------- |
+| 80   | 192.168.15.122 | Ubuntu Web Server | External Web Server HTTP |
+| 443   | 192.168.15.122 | Ubuntu Web Server | External Web Server HTTPS |
+
+> **Subnet-One Router**
+
+| Port | IP Address | Device | Description |
+| ---- | ---------- | ------ | ---------------------------- |
+| 80   | 192.168.15.252 | IIS WebServer | Intranet Web Server HTTP |
+| 443   | 192.168.15.252 | IIS WebServer | Intranet Web Server HTTPS |
