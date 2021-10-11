@@ -61,7 +61,7 @@ This section covers tasks and objectives yet to be achieved towards the completi
 | 9 | ~~Develop security implementation plan~~ |
 | 10 | ~~Harden network security~~ |
 | 11 | Perform security audit on network |
-| 12 | Create a security network diagram |
+| 12 | ~~Create a security network diagram~~ |
 
 ---
 
