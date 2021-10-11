@@ -56,10 +56,10 @@ This section covers tasks and objectives yet to be achieved towards the completi
 | 4 | ~~Host a virtual IIS webserver in the private network~~ |
 | 5 | ~~Host a secure Windows File Server in the private network~~ |
 | 6 | ~~Consider Clustering?~~ |
-| 7 | Setup network inventory solution |
+| 7 | ~~Setup network inventory solution~~ |
 | 8 | Plan and implement Email Server |
-| 9 | Develop security implementation plan |
-| 10 | Harden network security |
+| 9 | ~~Develop security implementation plan~~ |
+| 10 | ~~Harden network security~~ |
 | 11 | Perform security audit on network |
 | 12 | Create a security network diagram |
 
